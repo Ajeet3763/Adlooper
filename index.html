@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/task.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- ----------------header start here---------------- -->
+    <header class="page-header nav_page_mob">
+        <div class="logoImage">
+            <img src="images/logo.png" alt="Logo Image" />
+        </div>
+
+
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark header-flexFirst">
+                <div class="collapse navbar-collapse header-flexFirstLine" id="navbarCollapse">
+                    <div class="nav-item widthNav">
+                        <a href="#" class="nav-item nav-link  firstColor"><img src="images/Reports icon.png"
+                                alt="repost Icon" /> <span class="overView">Overview</span>
+                        </a>
+                    </div>
+                    <div class="nav-item widthNavs">
+                        <a href="#" class="nav-item nav-link  firstColor backApplication"><img
+                                src="images/Reports icon.png" alt="repost Icon" /> <span
+                                class="overView">Applications</span>
+                        </a>
+                    </div>
+                    <div class="nav-item widthNav">
+                        <a href="#" class="nav-item nav-link  firstColor"><img src="images/Adicon.png" alt="Icon" />
+                            <span class="overView">House Ads</span>
+                        </a>
+                    </div>
+                    <div class="nav-item widthNav">
+                        <a href="#" class="nav-item nav-link  firstColor">SDk
+                        </a>
+                    </div>
+                    <!-- <div class="nav-item">
+                        <a href="#" class="nav-item nav-link  firstColor px-3">KiwiUser
+                        </a>
+                    </div> -->
+                    <div class="widthNav">
+                        <select name="" id="" class="selctHeader">
+                            <option value="KiwiUser">KiwiUser</option>
+                            <option value="KiwiUser1">KiwiUser 1</option>
+                            <option value="KiwiUser2">KiwiUser 2</option>
+                            <option value="KiwiUser3">KiwiUser 3</option>
+                            <option value="KiwiUser4">KiwiUser 4</option>
+                        </select>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="humburg">&#9776;</span>
+        </nav>
+
+        <!-- mobile_sidebar_start -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="mobileNav">
+                <div class="widthNavMobile">
+                    <a href="#" class="firstColor"><img src="images/Reports icon.png" alt="repost Icon" /> <span
+                            class="overView">Overview</span>
+                    </a>
+                </div>
+                <div class="widthNavMobile">
+                    <a href="#" class="firstColor backApplicationMBL"><img src="images/Reports icon.png"
+                            alt="repost Icon" /> <span class="overView">Applications</span>
+                    </a>
+                </div>
+                <div class="widthNavMobile">
+                    <a href="#" class="firstColor"><img src="images/Adicon.png" alt="Icon" /> <span
+                            class="overView">House Ads</span>
+                    </a>
+                </div>
+                <div class="widthNavMobile">
+                    <a href="#" class="firstColor">SDk
+                    </a>
+                </div>
+                <!-- <div class="nav-item">
+                    <a href="#" class="firstColor px-3">KiwiUser
+                    </a>
+                </div> -->
+                <div class="widthNavMobile">
+                    <select name="" id="" class="selctHeaderMBL">
+                        <option value="KiwiUser">KiwiUser</option>
+                        <option value="KiwiUser1">KiwiUser 1</option>
+                        <option value="KiwiUser2">KiwiUser 2</option>
+                        <option value="KiwiUser3">KiwiUser 3</option>
+                        <option value="KiwiUser4">KiwiUser 4</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <!-- mobile_sidebar_end -->
+    </header>
+
+    </div>
+
+    <!-- ----------------First Section start here---------------- -->
+    <div class="row m-0" style="height: 89vh;">
+        <div class="col-md-3 p-0 backLeft">
+            <div class="leftSection">
+                <div class="leftTop">
+                    <div class="headingLeft">
+                        <h1>Applications</h1><img src="images/Applications-icon.png" alt="Icon" />
+                    </div>
+                    <button class="AddnewApp"><img src="images/plusIcon.png" alt="Icon" /> Add New Application</button>
+                </div>
+            </div>
+
+            <div class="NavTabs">
+                <ul class="nav nav-tabs leftUL" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="enemyLines" data-bs-toggle="tab"
+                            data-bs-target="#LinesEnemy" type="button" role="tab" aria-controls="LinesEnemy"
+                            aria-selected="true">
+                            <div class="enterTab">
+                                <div class="greenPointHead">
+                                    <div class="greenPoint"></div>
+                                    <p>Enemy Lines</p>
+                                </div>
+                                <img src="images/playstoreIcon.png" alt="icon" />
+                            </div>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="brightwoodAdventure" data-bs-toggle="tab"
+                            data-bs-target="#adventureBrightWood" type="button" role="tab"
+                            aria-controls="adventureBrightWood" aria-selected="false">
+                            <div class="enterTab">
+                                <div class="greenPointHead">
+                                    <div class="redPoint"></div>
+                                    <div>
+                                        <p class="adven">Brightwood Adventure</p>
+                                        <p class="sdk">SDK not live</p>
+                                    </div>
+                                </div>
+                                <img src="images/playstoreIcon.png" alt="icon" />
+                            </div>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="monsterCity" data-bs-toggle="tab" data-bs-target="#CityMonster"
+                            type="button" role="tab" aria-controls="CityMonster" aria-selected="false">
+                            <div class="enterTab">
+                                <div class="greenPointHead">
+                                    <div class="redPoint"></div>
+                                    <div>
+                                        <p class="adven">Monster City</p>
+                                        <p class="sdk">SDK not live</p>
+                                    </div>
+                                </div>
+                                <img src="images/AppleIcon.png" alt="icon" />
+                            </div>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9 p-0">
+            <div class="bg-white">
+                <div class="rightSideTab">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="LinesEnemy" role="tabpanel"
+                            aria-labelledby="enemyLines">
+                            <div class="brightwoodAdventures">
+                                <div class="rightTabAdventure">
+                                    <img src="images/Brightwood-Icon.png" alt="Icon" />
+                                    <h2>Enemy Lines</h2>
+                                    <img src="images/playstoreIcon.png" alt="Icon" />
+                                </div>
+                            </div>
+                            <div class="ticketDesk">
+                                <div class="rightNewTab">
+                                    <ul class="nav nav-tabs rightNewNav" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active newestFlow" id="counterTicket"
+                                                data-bs-toggle="tab" data-bs-target="#TicketCounter" type="button"
+                                                role="tab" aria-controls="TicketCounter" aria-selected="true">
+                                                <div class="">
+                                                    <img src="images/ticketIcon.png" alt="icon" />
+                                                    Ticket
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link newestFlow" id="ControlPanel" data-bs-toggle="tab"
+                                                data-bs-target="#pannelControl" type="button" role="tab"
+                                                aria-controls="pannelControl" aria-selected="false">Control
+                                                Panel</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link newestFlow" id="userSetting" data-bs-toggle="tab"
+                                                data-bs-target="#settings" type="button" role="tab"
+                                                aria-controls="settings" aria-selected="false">Settings</button>
+                                        </li>
+                                    </ul>
+                                    <div class="newAppBtn">
+                                        <button class="AddnewAppss"><img src="images/plusIcon.png" alt="Icon" /> Add New
+                                            Application</button>
+                                    </div>
+                                </div>
+                                <div class="rightNewDownTab">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="TicketCounter" role="tabpanel"
+                                            aria-labelledby="counterTicket">
+                                            <div class="">
+                                                <div class="placement">
+                                                    <div class="Minus">-</div>
+                                                    <div class="placementIcon">
+                                                        <p>Placement Default</p>
+                                                        <img src="images/EditLocation.png" alt="Icon" />
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Ad Network</th>
+                                                                <th>State</th>
+                                                                <th class="applicationNew">Application <div
+                                                                        class="questionark">?</div>
+                                                                </th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Ready</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="Notready">Not Ready <img
+                                                                        src="images/errorImage-removebg-preview.png"
+                                                                        alt=".." />
+                                                                    <div class="borderBox">
+                                                                        <div class="miniDiv"></div>
+                                                                        <p>SDK not ready</p>
+                                                                    </div>
+                                                                    </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="tab-pane fade" id="pannelControl" role="tabpanel"
+                                            aria-labelledby="ControlPanel">
+                                            <div class="">
+                                                <div class="placement">
+                                                    <div class="Minus">-</div>
+                                                    <div class="placementIcon">
+                                                        <p>Placement Default</p>
+                                                        <img src="images/EditLocation.png" alt="Icon" />
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Ad Network</th>
+                                                                <th>State</th>
+                                                                <th class="applicationNew">Application <div
+                                                                        class="questionark">?</div>
+                                                                </th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Ready</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="Notready">Not Ready <img
+                                                                        src="images/errorImage-removebg-preview.png"
+                                                                        alt=".." />
+                                                                    <div class="borderBox">
+                                                                        <div class="miniDiv"></div>
+                                                                        <p>SDK not ready</p>
+                                                                    </div>
+                                                                    </td>
+                                                            </tr>
+
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="settings" role="tabpanel"
+                                            aria-labelledby="userSetting">
+                                            <div class="">
+                                                <div class="placement">
+                                                    <div class="Minus">-</div>
+                                                    <div class="placementIcon">
+                                                        <p>Placement Default</p>
+                                                        <img src="images/EditLocation.png" alt="Icon" />
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Ad Network</th>
+                                                                <th>State</th>
+                                                                <th class="applicationNew">Application <div
+                                                                        class="questionark">?</div>
+                                                                </th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Ready</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="Notready">Not Ready <img
+                                                                        src="images/errorImage-removebg-preview.png"
+                                                                        alt=".." />
+                                                                    <div class="borderBox">
+                                                                        <div class="miniDiv"></div>
+                                                                        <p>SDK not ready</p>
+                                                                    </div>
+                                                                    </td>
+                                                            </tr>
+
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="adventureBrightWood" role="tabpanel"
+                            aria-labelledby="brightwoodAdventure">
+                            <div class="brightwoodAdventures">
+                                <div class="rightTabAdventure">
+                                    <img src="images/Brightwood-Icon.png" alt="Icon" />
+                                    <h2>Brightwood Adventure</h2>
+                                    <img src="images/playstoreIcon.png" alt="Icon" />
+                                </div>
+                            </div>
+                            <div class="ticketDesk">
+                                <div class="rightNewTab">
+                                    <ul class="nav nav-tabs rightNewNav" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active newestFlow" id="counterTicket"
+                                                data-bs-toggle="tab" data-bs-target="#TicketCounter" type="button"
+                                                role="tab" aria-controls="TicketCounter" aria-selected="true">
+                                                <div class="">
+                                                    <img src="images/ticketIcon.png" alt="icon" />
+                                                    Ticket
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link newestFlow" id="ControlPanel" data-bs-toggle="tab"
+                                                data-bs-target="#pannelControl" type="button" role="tab"
+                                                aria-controls="pannelControl" aria-selected="false">Control
+                                                Panel</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link newestFlow" id="userSetting" data-bs-toggle="tab"
+                                                data-bs-target="#settings" type="button" role="tab"
+                                                aria-controls="settings" aria-selected="false">Settings</button>
+                                        </li>
+                                    </ul>
+                                    <div class="newAppBtn">
+                                        <button class="AddnewAppss"><img src="images/plusIcon.png" alt="Icon" /> Add New
+                                            Application</button>
+                                    </div>
+                                </div>
+                                <div class="rightNewDownTab">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="TicketCounter" role="tabpanel"
+                                            aria-labelledby="counterTicket">
+                                            <div class="">
+                                                <div class="placement">
+                                                    <div class="Minus">-</div>
+                                                    <div class="placementIcon">
+                                                        <p>Placement Default</p>
+                                                        <img src="images/EditLocation.png" alt="Icon" />
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Ad Network</th>
+                                                                <th>State</th>
+                                                                <th class="applicationNew">Application <div
+                                                                        class="questionark">?</div>
+                                                                </th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Ready</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="Notready">Not Ready <img
+                                                                        src="images/errorImage-removebg-preview.png"
+                                                                        alt=".." />
+                                                                    <div class="borderBox">
+                                                                        <div class="miniDiv"></div>
+                                                                        <p>SDK not ready</p>
+                                                                    </div>
+                                                                    </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="tab-pane fade" id="pannelControl" role="tabpanel"
+                                            aria-labelledby="ControlPanel">
+                                            <div class="">
+                                                <div class="placement">
+                                                    <div class="Minus">-</div>
+                                                    <div class="placementIcon">
+                                                        <p>Placement Default</p>
+                                                        <img src="images/EditLocation.png" alt="Icon" />
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Ad Network</th>
+                                                                <th>State</th>
+                                                                <th class="applicationNew">Application <div
+                                                                        class="questionark">?</div>
+                                                                </th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Ready</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="Notready">Not Ready <img
+                                                                        src="images/errorImage-removebg-preview.png"
+                                                                        alt=".." />
+                                                                    <div class="borderBox">
+                                                                        <div class="miniDiv"></div>
+                                                                        <p>SDK not ready</p>
+                                                                    </div>
+                                                                    </td>
+                                                            </tr>
+
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="settings" role="tabpanel"
+                                            aria-labelledby="userSetting">
+                                            <div class="">
+                                                <div class="placement">
+                                                    <div class="Minus">-</div>
+                                                    <div class="placementIcon">
+                                                        <p>Placement Default</p>
+                                                        <img src="images/EditLocation.png" alt="Icon" />
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Ad Network</th>
+                                                                <th>State</th>
+                                                                <th class="applicationNew">Application <div
+                                                                        class="questionark">?</div>
+                                                                </th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Ready</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="Notready">Not Ready <img
+                                                                        src="images/errorImage-removebg-preview.png"
+                                                                        alt=".." />
+                                                                    <div class="borderBox">
+                                                                        <div class="miniDiv"></div>
+                                                                        <p>SDK not ready</p>
+                                                                    </div>
+                                                                    </td>
+                                                            </tr>
+
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="CityMonster" role="tabpanel" aria-labelledby="monsterCity">
+                            <div class="brightwoodAdventures">
+                                <div class="rightTabAdventure">
+                                    <img src="images/Brightwood-Icon.png" alt="Icon" />
+                                    <h2>Monster City</h2>
+                                    <img src="images/playstoreIcon.png" alt="Icon" />
+                                </div>
+                            </div>
+                            <div class="ticketDesk">
+                                <div class="rightNewTab">
+                                    <ul class="nav nav-tabs rightNewNav" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active newestFlow" id="counterTicket"
+                                                data-bs-toggle="tab" data-bs-target="#TicketCounter" type="button"
+                                                role="tab" aria-controls="TicketCounter" aria-selected="true">
+                                                <div class="">
+                                                    <img src="images/ticketIcon.png" alt="icon" />
+                                                    Ticket
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link newestFlow" id="ControlPanel" data-bs-toggle="tab"
+                                                data-bs-target="#pannelControl" type="button" role="tab"
+                                                aria-controls="pannelControl" aria-selected="false">Control
+                                                Panel</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link newestFlow" id="userSetting" data-bs-toggle="tab"
+                                                data-bs-target="#settings" type="button" role="tab"
+                                                aria-controls="settings" aria-selected="false">Settings</button>
+                                        </li>
+                                    </ul>
+                                    <div class="newAppBtn">
+                                        <button class="AddnewAppss"><img src="images/plusIcon.png" alt="Icon" /> Add New
+                                            Application</button>
+                                    </div>
+                                </div>
+                                <div class="rightNewDownTab">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="TicketCounter" role="tabpanel"
+                                            aria-labelledby="counterTicket">
+                                            <div class="">
+                                                <div class="placement">
+                                                    <div class="Minus">-</div>
+                                                    <div class="placementIcon">
+                                                        <p>Placement Default</p>
+                                                        <img src="images/EditLocation.png" alt="Icon" />
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Ad Network</th>
+                                                                <th>State</th>
+                                                                <th class="applicationNew">Application <div
+                                                                        class="questionark">?</div>
+                                                                </th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Ready</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="Notready">Not Ready <img
+                                                                        src="images/errorImage-removebg-preview.png"
+                                                                        alt=".." />
+                                                                    <div class="borderBox">
+                                                                        <div class="miniDiv"></div>
+                                                                        <p>SDK not ready</p>
+                                                                    </div>
+                                                                    </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="tab-pane fade" id="pannelControl" role="tabpanel"
+                                            aria-labelledby="ControlPanel">
+                                            <div class="">
+                                                <div class="placement">
+                                                    <div class="Minus">-</div>
+                                                    <div class="placementIcon">
+                                                        <p>Placement Default</p>
+                                                        <img src="images/EditLocation.png" alt="Icon" />
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Ad Network</th>
+                                                                <th>State</th>
+                                                                <th class="applicationNew">Application <div
+                                                                        class="questionark">?</div>
+                                                                </th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Ready</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="Notready">Not Ready <img
+                                                                        src="images/errorImage-removebg-preview.png"
+                                                                        alt=".." />
+                                                                    <div class="borderBox">
+                                                                        <div class="miniDiv"></div>
+                                                                        <p>SDK not ready</p>
+                                                                    </div>
+                                                                    </td>
+                                                            </tr>
+
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="settings" role="tabpanel"
+                                            aria-labelledby="userSetting">
+                                            <div class="">
+                                                <div class="placement">
+                                                    <div class="Minus">-</div>
+                                                    <div class="placementIcon">
+                                                        <p>Placement Default</p>
+                                                        <img src="images/EditLocation.png" alt="Icon" />
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Ad Network</th>
+                                                                <th>State</th>
+                                                                <th class="applicationNew">Application <div
+                                                                        class="questionark">?</div>
+                                                                </th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Ready</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="ready">Displaying</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Chart Boost</td>
+                                                                <td class="switch">
+                                                                    <p>
+                                                                        <label class="toggleSwitch" onclick="">
+                                                                            <input type="checkbox" />
+                                                                            <span>
+                                                                                <span>OFF</span>
+                                                                                <span>ON</span>
+
+                                                                            </span>
+                                                                            <a></a>
+                                                                        </label>
+                                                                    </p>
+                                                                </td>
+                                                                <td>Auto</td>
+                                                                <td class="Notready">Not Ready <img
+                                                                        src="images/errorImage-removebg-preview.png"
+                                                                        alt=".." />
+                                                                    <div class="borderBox">
+                                                                        <div class="miniDiv"></div>
+                                                                        <p>SDK not ready</p>
+                                                                    </div>
+                                                                    </td>
+                                                            </tr>
+
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------------javascript cdn and link----------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
